@@ -1,0 +1,26 @@
+# 1-Click Free Tier Deployment Blueprint for Render.com (512MB RAM friendly)
+services:
+  - type: web
+    name: ksa-bilingual-rag-pdpl
+    runtime: python
+    plan: free
+    buildCommand: pip install -r requirements-lite.txt
+    startCommand: uvicorn app.main:app --host 0.0.0.0 --port $PORT
+    healthCheckPath: /health
+    envVars:
+      - key: LLM_PROVIDER
+        value: groq
+      - key: GROQ_API_KEY
+        sync: false
+      - key: GROQ_MODEL
+        value: llama-3.3-70b-versatile
+      - key: EMBEDDING_PROVIDER
+        value: huggingface_api
+      - key: EMBEDDING_MODEL
+        value: intfloat/multilingual-e5-small
+      - key: HF_API_TOKEN
+        sync: false
+      - key: USE_QDRANT
+        value: "false"
+      - key: ENABLE_PII_REDACTION
+        value: "true"

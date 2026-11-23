@@ -1,0 +1,31 @@
+services:
+  rag-api:
+    build: .
+    container_name: ksa-bilingual-rag
+    ports:
+      - "7860:7860"
+    env_file:
+      - .env
+    environment:
+      - HOST=0.0.0.0
+      - PORT=7860
+      - QDRANT_URL=http://qdrant:6333
+      - USE_QDRANT=true
+    volumes:
+      - ./data_store:/app/data_store
+      - ./sample_docs:/app/sample_docs:ro
+    depends_on:
+      - qdrant
+    restart: unless-stopped
+
+  qdrant:
+    image: qdrant/qdrant:v1.12.1
+    container_name: ksa-rag-qdrant
+    ports:
+      - "6333:6333"
+    volumes:
+      - qdrant_storage:/qdrant/storage
+    restart: unless-stopped
+
+volumes:
+  qdrant_storage:

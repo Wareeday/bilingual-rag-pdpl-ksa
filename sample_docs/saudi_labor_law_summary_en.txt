@@ -1,0 +1,41 @@
+=== PAGE 1 ===
+SAUDI ARABIA ENTERPRISE HR & LABOR LAW REFERENCE GUIDE (ENGLISH)
+Aligned with Saudi Labor Law (Royal Decree No. M/51 and amendments) & SDAIA PDPL
+
+1. Probation Period (Article 53)
+If an employee is subject to a probation period, this must be explicitly stated in the employment contract. The probation period shall not exceed 90 days. By written agreement between the employee and employer, it may be extended up to a maximum of 180 days. Eid Al-Fitr and Eid Al-Adha holidays and sick leave are excluded from the probation period calculation.
+
+2. Working Hours & Ramadan Schedule (Article 98)
+Standard working hours in Saudi Arabia must not exceed 8 hours per day or 48 hours per week. During the holy month of Ramadan, actual working hours for Muslim employees are reduced to a maximum of 6 hours per day or 36 hours per week. Overtime work must be compensated at an hourly rate equal to the regular wage plus an additional 50% of the basic wage (Article 107).
+
+=== PAGE 2 ===
+3. Annual Leave & Sick Leave (Articles 109 & 117)
+Under Article 109 of the Saudi Labor Law, every employee is entitled to a prepaid annual leave of at least 21 calendar days per year. After completing 5 consecutive years of service with the same employer, annual leave increases to at least 30 calendar days per year.
+Under Article 117, an employee whose illness is proven by a medical certificate is entitled to paid sick leave during a single year as follows:
+- First 30 days: full wage (100%).
+- Next 60 days: three-quarters of the wage (75%).
+- Following 30 days: unpaid leave.
+
+4. End-of-Service Award / Gratuity (Articles 84 & 85)
+Upon termination of the employment relationship by the employer (Article 84), the employee is entitled to an End-of-Service Award (ESB) calculated on the basis of the last wage:
+- Half a month's wage for each of the first 5 years of service.
+- One full month's wage for each subsequent year of service beyond 5 years.
+- Fractions of a year are compensated proportionally.
+Under Article 85 (employee resignation):
+- Less than 2 consecutive years of service: no award.
+- Between 2 and 5 consecutive years: one-third (1/3) of the award.
+- Between 5 and 10 consecutive years: two-thirds (2/3) of the award.
+- 10 or more consecutive years: full (100%) award.
+
+=== PAGE 3 ===
+5. Compensation for Unlawful Termination (Article 77)
+Unless the contract specifies a higher compensation amount, if a contract is terminated for an invalid reason, the harmed party is entitled to compensation as follows:
+- Indefinite-term contract: 15 days' wage for each year of the employee's service.
+- Fixed-term contract: the wage for the remaining period of the contract.
+- In both cases, the minimum compensation shall not be less than two months' wage.
+
+6. Saudi Personal Data Protection Law (PDPL / SDAIA) Enterprise AI Policy
+All internal AI and LLM systems operating in the Kingdom of Saudi Arabia must comply with the Saudi Personal Data Protection Law (PDPL) supervised by SDAIA:
+- Personal Identifiable Information (PII) including Saudi National IDs, Iqama numbers, mobile numbers, IBAN bank accounts, and personal email addresses must be automatically redacted before transmitting prompts to external LLM inference APIs.
+- Audit logs must record data-protection redaction events using cryptographic hashes without storing raw personal data.
+- Cross-border personal data transfers require explicit legal basis and compliance with SDAIA data-transfer regulations.
